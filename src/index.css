@@ -36,3 +36,22 @@
 .menu-item:hover {
     color: #33bbf8;
 }
+
+/* product-list */
+
+.product-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.product-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-item__img {
+    width: 40%;
+}
