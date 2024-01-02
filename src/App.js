@@ -7,12 +7,14 @@ import Footer from "./components/footer/footer";
 import ProductList from "./components/productslist/ProductList";
 import Data from "./components/data/Data"
 import ToDoList from "./components/todolist/ToDoList";
+import Button from "./components/buttons/Button";
 
 const App = () => {
     const {products} = Data;
     return (
         <div>
             <Navbar />
+            <Button />
             <ToDoList />
             <ProductList products={products}/>
             <Aboutme />
