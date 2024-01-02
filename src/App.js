@@ -8,12 +8,14 @@ import ProductList from "./components/productslist/ProductList";
 import Data from "./components/data/Data"
 import ToDoList from "./components/todolist/ToDoList";
 import Button from "./components/buttons/Button";
+import Count from "./components/buttons/Count";
 
 const App = () => {
     const {products} = Data;
     return (
         <div>
             <Navbar />
+            <Count />
             <Button />
             <ToDoList />
             <ProductList products={products}/>
