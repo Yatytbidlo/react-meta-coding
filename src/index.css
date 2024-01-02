@@ -55,3 +55,16 @@
 .product-item__img {
     width: 40%;
 }
+
+/*to do list*/
+
+.todolist {
+    list-style-type: none;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.headertodo {
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
